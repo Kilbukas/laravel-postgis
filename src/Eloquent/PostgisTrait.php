@@ -5,6 +5,7 @@ use Illuminate\Support\Arr;
 use Phaza\LaravelPostgis\Exceptions\PostgisFieldsNotDefinedException;
 use Phaza\LaravelPostgis\Geometries\Geometry;
 use Phaza\LaravelPostgis\Geometries\GeometryInterface;
+use Phaza\LaravelPostgis\Geometries\GeometryCollection;
 
 trait PostgisTrait
 {
